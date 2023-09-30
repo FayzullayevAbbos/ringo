@@ -1,0 +1,30 @@
+@media screen and (max-width: 640px){
+    header nav{
+        display: none;
+    }
+    .gamburger{
+        display: block;
+    }
+     .hero-body .h1{
+        font-size: 28px;
+        max-width: 30rem;
+    }
+    .hero-body .p{
+        max-width: 30rem;
+        font-size: 1.5rem;
+    }
+    .btn{
+        margin-bottom: 2.3rem;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        padding: 2.1rem 0 4.1rem;
+    }
+    .footer__left{
+        display: none;
+    }
+    header .nav__right{
+        display: none;
+    }
+}

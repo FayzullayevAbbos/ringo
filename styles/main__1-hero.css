@@ -1,0 +1,165 @@
+/* ----------------------global------------------- */
+:root {
+  --btn-bg: #ae7b3c;
+  --fonts: #fff;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.opacity {
+  opacity: 0.8;
+}
+.max-width {
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
+/* Utility classes */
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-end {
+  align-items: end;
+}
+.items-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.items-start {
+  align-items: flex-start;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-flex-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: end;
+}
+.space-around{
+justify-content: space-around;
+}
+/* Components */
+.g-40 {
+  gap: 4rem;
+}
+.g-15 {
+  gap: 1.5rem;
+}
+.g-60 {
+  gap: 6rem;
+}
+.g-20 {
+  gap: 2rem;
+}
+
+.hero {
+  background: url("../images/png/hero-bg-page1.png") no-repeat center;
+  background-image: cover;
+}
+.gamburger{
+    display: none;
+}
+.hero-bg {
+  opacity: 0.9;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) -13.19%,
+    rgba(0, 0, 0, 0.85) 94.01%
+  );
+}
+
+header {
+  height: 100vh;
+}
+nav {
+  background: var(--fonts);
+  min-height: 13.5vh;
+}
+.hero-body {
+  height: 86.5vh;
+}
+.hero-body .h1 {
+  max-width: 85rem;
+  color: var(--fonts);
+  font-size: 5.6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0 auto;
+}
+.hero-body .p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  opacity: 0.8;
+  max-width: 64rem;
+  color: var(--fonts);
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.btn {
+  padding: 2.2rem 5.6rem;
+  background-color: var(--btn-bg);
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  opacity: 1;
+  margin: 0 auto;
+  margin-bottom: 4.3rem;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  color: var(--fonts);
+}
+li a,
+a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+}
+footer {
+  display: block;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.1rem 0 5.1rem;
+  border-top: 2px solid #4a4747;
+}
+.footer__right a {
+  padding: 8px 11px;
+  border: 1px solid #4a4747;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+  color: #4a4747;
+}
+.footer__right a:nth-child(1) {
+  color: var(--fonts);
+  border-color: var(--fonts);
+}
+[href="tel:+380 67661 5415"] {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+
+  

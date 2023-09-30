@@ -1,0 +1,18 @@
+.hero-body .h1{
+    max-width: 40rem;
+}
+.hero-body .p{
+    max-width: 47.5rem;
+}
+.footer__right a:nth-child(1) {
+    color:#4a4747;
+    border-color: #4a4747;
+  }
+  .footer__right a:nth-child(2) {
+    color: var(--fonts);
+    border-color: var(--fonts);
+  }
+  .hero {
+    background: url("../images/png/hero-bg.png") no-repeat center;
+    background-image: cover;
+  }
